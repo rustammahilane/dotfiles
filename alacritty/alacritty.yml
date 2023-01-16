@@ -48,7 +48,7 @@ window:
   # by DPI and the specified value is always added at both opposing sides.
   padding:
     y: 6
-    x: 8
+    x: 10
 
   # Spread additional padding evenly around the terminal content.
   #dynamic_padding: false
@@ -68,7 +68,7 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  opacity: 0.6
+  opacity: 0.55
 
   # Startup Mode (changes require restart)
   #
@@ -319,30 +319,30 @@ font:
 colors:
   # Default colors
   primary:
-    background: '0x282a36'
+    background: '0x0d100f'
     foreground: '0xf8f8f2'
  
   # Normal colors
   normal:
     black:   '0x000000'
     red:     '0xff5555'
-    green:   '0x50fa7b'
+    green:   '0x3ce124'
     yellow:  '0xf1fa8c'
-    blue:    '0xa96fee'
+    blue:    '0xb664df'
     magenta: '0xff79c6'
     cyan:    '0x8be9fd'
-    white:   '0xbbbbbb'
+    white:   '0xdfdfdf'
  
   # Bright colors
   bright:
     black:   '0x555555'
-    red:     '0xff5555'
+    red:     '0xbf1111'
     green:   '0x50fa7b'
     yellow:  '0xf1fa8c'
     blue:    '0xcaa9fa'
     magenta: '0x7400ff'
     cyan:    '0x8be9fd'
-    white:   '0xffffff'
+    white:   '0xdfdfdf'
     
   # Indexed Colors
   #

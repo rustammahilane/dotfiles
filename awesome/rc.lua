@@ -169,7 +169,7 @@ awful.screen.connect_for_each_screen(function(s)
     set_wallpaper(s)
 
     -- Each screen has its own tag table.
-    awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9" }, s, awful.layout.layouts[1])
+    awful.tag({ "1", "2", "3", "4", "5", "6", "7" }, s, awful.layout.layouts[1])
 
     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
@@ -573,5 +573,5 @@ awful.spawn.with_shell("polybar")
 -- gap between windows
 beautiful.useless_gap = 1
 -- hotkeys
-awful.key({modkey,  },"c", function() awful.util.spawn("code") end,
+awful.key({modkey  },"c", function() awful.util.spawn("code") end,
     {description= "open code", group = "hotkeys"})
